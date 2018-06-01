@@ -24,16 +24,12 @@ $(document).ready(function () {
   // Name and total number of images in each category + 1
   var categories = [
     {'catName': 'classic-cars', 'catNumb': 12 + 1},
-    {'catName': 'super-cars', 'catNumb': 13 + 1},
-    // {'catName': 'nature', 'catNumb': 22 + 1},
-    // {'catName': 'portraits', 'catNumb': 39 + 1},
-    // {'catName': 'urban', 'catNumb': 15 + 1},
-    // {'catName': 'weeding', 'catNumb': 12 + 1}
+    {'catName': 'super-cars', 'catNumb': 13 + 1}
   ];
 
   for(var loopIndex = 0; loopIndex < categories.length; loopIndex++) {
     for(var imgIndex = 1; imgIndex < categories[loopIndex].catNumb; imgIndex++) {
-      $('.gallery__wrapper')[0].innerHTML += '<div class="gallery__item scale-anm all ' + categories[loopIndex].catName + '"><img src="../img/gallery/' + categories[loopIndex].catName + '/' + imgIndex + '.jpg" alt="" /></div>'
+      $('.gallery__wrapper')[0].innerHTML += '<div class="gallery__item scale-anm all ' + categories[loopIndex].catName + '"><img src="img/gallery/' + categories[loopIndex].catName + '/' + imgIndex + '.jpg" alt="" /></div>'
     }
   }
 
