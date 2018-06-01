@@ -1,27 +1,3 @@
-# Site settings
-title: Plop
-email: plop@plop.com
-description: "blablabla"
-baseurl: ""
-logo: /img/logo.png
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      image: /img/logo.png
-
-# Build settings
+name: Europ Auto
 markdown: kramdown
-
-gems:
-  - jekyll-seo-tag
-  - jekyll-redirect-from
-  - jekyll-autoprefixer
-
-exclude:
-  - vendor
-  - README.md
-  - circle.yml
-  - CONTRIBUTING.md
-  - Dockerfile
+baseurl: ""
