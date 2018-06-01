@@ -42,12 +42,12 @@ nav {
 
 #homepage {
   .icon {
-    background-image: url("/img/icons/settings.svg");
+    background-image: url("../img/icons/settings.svg");
     width: 60px;
     height: 60px;
 
     &:hover {
-      background-image: url("/img/icons/settings-orange.svg");
+      background-image: url("../img/icons/settings-orange.svg");
     }
 
     &::after {
@@ -58,30 +58,30 @@ nav {
   }
 
   .icon--contact {
-    background-image: url("/img/icons/contact.svg");
+    background-image: url("../img/icons/contact.svg");
 
     &:hover {
-      background-image: url("/img/icons/contact-orange.svg");
+      background-image: url("../img/icons/contact-orange.svg");
     }
   }
   .icon--gallery {
-    background-image: url("/img/icons/photo.svg");
+    background-image: url("../img/icons/photo.svg");
 
     &:hover {
-      background-image: url("/img/icons/photo-orange.svg");
+      background-image: url("../img/icons/photo-orange.svg");
     }
   }
   .icon--presentation {
-    background-image: url("/img/icons/user.svg");
+    background-image: url("../img/icons/user.svg");
 
     &:hover {
-      background-image: url("/img/icons/user-orange.svg");
+      background-image: url("../img/icons/user-orange.svg");
     }
   }
 }
 
 .icon {
-  background-image: url("/img/icons/settings-orange.svg");
+  background-image: url("../img/icons/settings-orange.svg");
   background-position: center;
   background-size: 70%;
   background-repeat: no-repeat;
@@ -121,7 +121,7 @@ nav {
 }
 
 .icon--contact {
-  background-image: url("/img/icons/contact-orange.svg");
+  background-image: url("../img/icons/contact-orange.svg");
 
   &::after {
     content: "contact";
@@ -129,7 +129,7 @@ nav {
 }
 
 .icon--gallery {
-  background-image: url("/img/icons/photo-orange.svg");
+  background-image: url("../img/icons/photo-orange.svg");
 
   &::after {
     content: "galerie"
@@ -137,7 +137,7 @@ nav {
 }
 
 .icon--presentation {
-  background-image: url("/img/icons/user-orange.svg");
+  background-image: url("../img/icons/user-orange.svg");
 
   &::after {
     content: "présentation"
@@ -145,7 +145,7 @@ nav {
 }
 
 .icon--home {
-  background-image: url("/img/icons/logo-black.svg");
+  background-image: url("../img/icons/logo-black.svg");
   background-size: 90%;
   border-color: #5a6fb5;
 
