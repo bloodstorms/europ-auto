@@ -1,3 +1,9 @@
 name: Europ Auto
 markdown: kramdown
 baseurl: "https://bloodstorms.github.io/europ-auto"
+
+plugins_dir:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-autoprefixer
