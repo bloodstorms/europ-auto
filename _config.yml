@@ -3,7 +3,6 @@ title: Plop
 email: plop@plop.com
 description: "blablabla"
 baseurl: ""
-url: "https://plop.com"
 logo: /img/logo.png
 
 defaults:
